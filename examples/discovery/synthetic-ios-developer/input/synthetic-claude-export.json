@@ -1,0 +1,102 @@
+[
+  {
+    "uuid": "synthetic-k1",
+    "name": "Release notes 2.5",
+    "created_at": "2026-07-08T18:20:00Z",
+    "updated_at": "2026-07-08T18:31:00Z",
+    "chat_messages": [
+      {
+        "uuid": "k1-m1",
+        "sender": "human",
+        "created_at": "2026-07-08T18:20:00Z",
+        "text": "Release notes again. Commits since 2.4:\n- iPad split view\n- fix widget not updating on iOS 26\n- migrate to Swift 6\nWrite the What's New (under 500 chars, friendly, skip internal stuff) and translate to German, French, Spanish, Japanese, Romanian. I do this every release and it's tedious, and I always forget which languages the app supports."
+      },
+      {
+        "uuid": "k1-m2",
+        "sender": "assistant",
+        "created_at": "2026-07-08T18:21:00Z",
+        "text": "What's New in 2.5: Pocket Plant Log now supports iPad split view, and widgets update reliably again. (Translations follow…)"
+      }
+    ]
+  },
+  {
+    "uuid": "synthetic-k2",
+    "name": "Review replies August",
+    "created_at": "2026-08-12T21:02:00Z",
+    "updated_at": "2026-08-12T21:20:00Z",
+    "chat_messages": [
+      {
+        "uuid": "k2-m1",
+        "sender": "human",
+        "created_at": "2026-08-12T21:02:00Z",
+        "text": "Another batch of reviews (Pocket Plant Log and Tide Timer). Group them: bug / feature request / praise, tell me which bugs show up more than once, and draft replies I can paste back into App Store Connect.\n\n- \"Tide times wrong for my harbor\" (Tide Timer, 2 stars)\n- \"Please add iCloud sync\" (Pocket Plant Log, 3 stars)\n- \"Widget blank on lock screen\" (Pocket Plant Log, 2 stars)\n- \"iCloud sync please!!\" (Pocket Plant Log, 4 stars)\n- \"Perfect little app\" (Tide Timer, 5 stars)"
+      },
+      {
+        "uuid": "k2-m2",
+        "sender": "assistant",
+        "created_at": "2026-08-12T21:04:00Z",
+        "text": "Bugs: tide times (Tide Timer), lock-screen widget (Pocket Plant Log). Feature requests: iCloud sync appears twice. Praise: 1. Draft replies: …"
+      }
+    ]
+  },
+  {
+    "uuid": "synthetic-k3",
+    "name": "Email about delayed project",
+    "created_at": "2026-08-20T09:15:00Z",
+    "updated_at": "2026-08-20T09:22:00Z",
+    "chat_messages": [
+      {
+        "uuid": "k3-m1",
+        "sender": "human",
+        "created_at": "2026-08-20T09:15:00Z",
+        "text": "Help me write a polite email to my client Dana Whitfield (dana.whitfield@example.com, +1 555 0142) explaining that the booking app delivery moves by two weeks because of the new privacy manifest requirements."
+      },
+      {
+        "uuid": "k3-m2",
+        "sender": "assistant",
+        "created_at": "2026-08-20T09:16:00Z",
+        "text": "Subject: Updated delivery date for the booking app…"
+      }
+    ]
+  },
+  {
+    "uuid": "synthetic-k4",
+    "name": "What's New 2.6",
+    "created_at": "2026-09-28T17:40:00Z",
+    "updated_at": "2026-09-28T17:52:00Z",
+    "chat_messages": [
+      {
+        "uuid": "k4-m1",
+        "sender": "human",
+        "created_at": "2026-09-28T17:40:00Z",
+        "text": "2.6 is ready. Commits:\n- Live Activity for watering\n- fix photo delete crash\n- update fastlane\nYou know the drill: What's New under 500 chars + de/fr/es/ja/ro. Then I'll paste each one into App Store Connect by hand, five times."
+      },
+      {
+        "uuid": "k4-m2",
+        "sender": "assistant",
+        "created_at": "2026-09-28T17:41:00Z",
+        "text": "What's New in 2.6: Follow watering with a Live Activity, and deleting photos no longer crashes. (Translations follow…)"
+      }
+    ]
+  },
+  {
+    "uuid": "synthetic-k5",
+    "name": "Missing Japanese strings",
+    "created_at": "2026-09-30T08:05:00Z",
+    "updated_at": "2026-09-30T08:19:00Z",
+    "chat_messages": [
+      {
+        "uuid": "k5-m1",
+        "sender": "human",
+        "created_at": "2026-09-30T08:05:00Z",
+        "text": "A Japanese user emailed that the new Live Activity shows English text. Again I shipped with missing translations in Localizable.xcstrings. I really should build something that checks the string catalog for untranslated keys before I archive. How do I find all keys missing a ja translation?"
+      },
+      {
+        "uuid": "k5-m2",
+        "sender": "assistant",
+        "created_at": "2026-09-30T08:07:00Z",
+        "text": "String catalogs are JSON. You can list keys where the ja localization is missing or its state is not 'translated'…"
+      }
+    ]
+  }
+]

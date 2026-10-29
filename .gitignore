@@ -1,0 +1,55 @@
+# CraftApps .gitignore
+# Goal: make it hard to accidentally commit private data.
+# Synthetic fixtures live in examples/ and skills/*/examples/ and use
+# names that do not match the patterns below.
+
+# --- Personal outputs produced by the skills ---
+craftapps/
+**/craftapps-output/
+*.private.md
+*-report.private.*
+
+# --- Personal inputs: conversation exports, chat logs, notes ---
+private/
+personal/
+inputs/
+exports/
+data/
+conversations.json
+conversations*.json
+chat.html
+chat*.html
+*.chatgpt-export.*
+*.claude-export.*
+*-export.zip
+*export*.zip
+*.jsonl
+
+# --- Credentials and signing material ---
+.env
+.env.*
+*.pem
+*.key
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+*credentials*
+*secret*
+*token*
+AuthKey_*.p8
+
+# --- OS / editor noise ---
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# --- Local agent state ---
+.claude/settings.local.json
+
+# --- Python ---
+__pycache__/
+*.pyc

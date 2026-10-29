@@ -1,0 +1,220 @@
+[
+  {
+    "id": "synthetic-c1",
+    "title": "What's New text for 2.3",
+    "create_time": 1770109920.0,
+    "update_time": 1770110400.0,
+    "current_node": "c1-m2",
+    "mapping": {
+      "c1-root": { "id": "c1-root", "message": null, "parent": null, "children": ["c1-m1"] },
+      "c1-m1": {
+        "id": "c1-m1",
+        "parent": "c1-root",
+        "children": ["c1-m2"],
+        "message": {
+          "id": "c1-m1",
+          "author": { "role": "user" },
+          "create_time": 1770109920.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["Here are my commits since 2.2 for Pocket Plant Log:\n- fix crash when deleting last plant\n- add watering reminder snooze\n- refactor PlantStore\n- update SwiftLint\n- new widget sizes\nTurn this into App Store \"What's New\" text. Friendly, no technical jargon, skip internal changes, under 500 characters. Then translate it into German, French, Spanish, Japanese and Romanian."]
+          }
+        }
+      },
+      "c1-m2": {
+        "id": "c1-m2",
+        "parent": "c1-m1",
+        "children": [],
+        "message": {
+          "id": "c1-m2",
+          "author": { "role": "assistant" },
+          "create_time": 1770109980.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["What's New in 2.3: Snooze watering reminders when you need a few more minutes, enjoy new widget sizes, and deleting your last plant no longer causes a crash. (Translations follow…)"]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "synthetic-c2",
+    "title": "Sort reviews and draft replies",
+    "create_time": 1773780060.0,
+    "update_time": 1773781000.0,
+    "current_node": "c2-m4",
+    "mapping": {
+      "c2-root": { "id": "c2-root", "message": null, "parent": null, "children": ["c2-m1"] },
+      "c2-m1": {
+        "id": "c2-m1",
+        "parent": "c2-root",
+        "children": ["c2-m2"],
+        "message": {
+          "id": "c2-m1",
+          "author": { "role": "user" },
+          "create_time": 1773780060.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["I copied the last two weeks of App Store reviews for Pocket Plant Log below. Sort them into bugs, feature requests and praise, and draft a short reply for each bug and feature request.\n\n1. \"Widget stopped updating after iOS update\" (2 stars)\n2. \"Please add a dark app icon\" (4 stars)\n3. \"Love it, my ferns are alive!\" (5 stars)\n4. \"Reminders fire twice\" (2 stars)\n5. \"Would pay for iCloud sync between iPad and iPhone\" (4 stars)\n6. \"Crashes when I delete a photo\" (1 star)"]
+          }
+        }
+      },
+      "c2-m2": {
+        "id": "c2-m2",
+        "parent": "c2-m1",
+        "children": ["c2-m3"],
+        "message": {
+          "id": "c2-m2",
+          "author": { "role": "assistant" },
+          "create_time": 1773780200.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["Bugs: 1, 4, 6. Feature requests: 2, 5. Praise: 3. Draft replies: …"]
+          }
+        }
+      },
+      "c2-m3": {
+        "id": "c2-m3",
+        "parent": "c2-m2",
+        "children": ["c2-m4"],
+        "message": {
+          "id": "c2-m3",
+          "author": { "role": "user" },
+          "create_time": 1773780700.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["Copy-pasting these from App Store Connect takes forever. I tried fetching them with the App Store Connect API but my script fails with 401. Key ID KEYID-FAKE-7Q2X, issuer 00000000-fake-issuer-0000, private key FAKE-PRIVATE-KEY-DO-NOT-USE-9f8e7d. What am I doing wrong?"]
+          }
+        }
+      },
+      "c2-m4": {
+        "id": "c2-m4",
+        "parent": "c2-m3",
+        "children": [],
+        "message": {
+          "id": "c2-m4",
+          "author": { "role": "assistant" },
+          "create_time": 1773780800.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["A 401 usually means the JWT is malformed or expired. Also, never paste private keys into chats; consider revoking this key…"]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "synthetic-c3",
+    "title": "Release notes 2.4 + translations",
+    "create_time": 1776765900.0,
+    "update_time": 1776766500.0,
+    "current_node": "c3-m2",
+    "mapping": {
+      "c3-root": { "id": "c3-root", "message": null, "parent": null, "children": ["c3-m1"] },
+      "c3-m1": {
+        "id": "c3-m1",
+        "parent": "c3-root",
+        "children": ["c3-m2"],
+        "message": {
+          "id": "c3-m1",
+          "author": { "role": "user" },
+          "create_time": 1776765900.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["Same as last time: git log since v2.3 is below, write the What's New text (friendly, under 500 chars, ignore refactors and dependency bumps) and translate to de, fr, es, ja, ro.\n\n- photo journal per plant\n- bump RevenueCat\n- fix reminders firing twice\n- rename ViewModels"]
+          }
+        }
+      },
+      "c3-m2": {
+        "id": "c3-m2",
+        "parent": "c3-m1",
+        "children": [],
+        "message": {
+          "id": "c3-m2",
+          "author": { "role": "assistant" },
+          "create_time": 1776765990.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["What's New in 2.4: Keep a photo journal for each plant, and reminders now fire only once. (Translations follow…)"]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "synthetic-c4",
+    "title": "Beginner workout plan",
+    "create_time": 1778311800.0,
+    "update_time": 1778312100.0,
+    "current_node": "c4-m2",
+    "mapping": {
+      "c4-root": { "id": "c4-root", "message": null, "parent": null, "children": ["c4-m1"] },
+      "c4-m1": {
+        "id": "c4-m1",
+        "parent": "c4-root",
+        "children": ["c4-m2"],
+        "message": {
+          "id": "c4-m1",
+          "author": { "role": "user" },
+          "create_time": 1778311800.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["Make me a simple 3-day-a-week beginner workout plan I can do at home with no equipment."]
+          }
+        }
+      },
+      "c4-m2": {
+        "id": "c4-m2",
+        "parent": "c4-m1",
+        "children": [],
+        "message": {
+          "id": "c4-m2",
+          "author": { "role": "assistant" },
+          "create_time": 1778311900.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["Day 1: squats, push-ups, plank… Day 2: … Day 3: …"]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "synthetic-c5",
+    "title": "Numbers formula for crash trend",
+    "create_time": 1780303620.0,
+    "update_time": 1780304000.0,
+    "current_node": "c5-m2",
+    "mapping": {
+      "c5-root": { "id": "c5-root", "message": null, "parent": null, "children": ["c5-m1"] },
+      "c5-m1": {
+        "id": "c5-m1",
+        "parent": "c5-root",
+        "children": ["c5-m2"],
+        "message": {
+          "id": "c5-m1",
+          "author": { "role": "user" },
+          "create_time": 1780303620.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["Monday again. I copy crash counts and sessions for my three apps from the Xcode Organizer into a Numbers sheet every week. Give me a formula for crash-free sessions and the week-over-week change, and highlight it red if it got worse by more than 0.5%."]
+          }
+        }
+      },
+      "c5-m2": {
+        "id": "c5-m2",
+        "parent": "c5-m1",
+        "children": [],
+        "message": {
+          "id": "c5-m2",
+          "author": { "role": "assistant" },
+          "create_time": 1780303700.0,
+          "content": {
+            "content_type": "text",
+            "parts": ["Crash-free rate: =1-(B2/C2). Week-over-week: =D2-D1. Use conditional highlighting…"]
+          }
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "name": "craftapps",
+  "interface": {
+    "displayName": "CraftApps"
+  },
+  "plugins": [
+    {
+      "name": "craftapps",
+      "source": {
+        "source": "url",
+        "url": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

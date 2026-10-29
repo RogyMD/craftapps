@@ -1,0 +1,20 @@
+{
+  "name": "craftapps",
+  "description": "CraftApps skills: craft your own apps",
+  "owner": {
+    "name": "Igor Bidiniuc",
+    "email": "craft.apps@aigarden.uk"
+  },
+  "plugins": [
+    {
+      "name": "craftapps",
+      "description": "Craft your own apps: discover, build, verify, and share small native apps you own.",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "Igor Bidiniuc",
+        "email": "craft.apps@aigarden.uk"
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "craftapps",
+  "version": "0.1.0",
+  "description": "Craft your own apps: discover what to build from your own life, then check, plan, build, verify, and share small native apps you own.",
+  "author": {
+    "name": "Igor Bidiniuc",
+    "email": "craft.apps@aigarden.uk",
+    "url": "https://github.com/RogyMD"
+  },
+  "homepage": "https://github.com/RogyMD/craftapps",
+  "repository": "https://github.com/RogyMD/craftapps",
+  "license": "MIT",
+  "keywords": ["skills", "personal-software", "native-apps", "privacy"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CraftApps",
+    "shortDescription": "Craft small native apps you own, from idea to sharing",
+    "longDescription": "Find what's worth building in your own routines and AI conversations, check whether it already exists, then plan, build, verify, and share a small native app or automation, explained at your level. Private by default: your data stays with you.",
+    "developerName": "Igor Bidiniuc",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Discover my apps.",
+      "I have an idea for an app. Build my app."
+    ],
+    "websiteURL": "https://github.com/RogyMD/craftapps"
+  }
+}
