@@ -1,3 +1,5 @@
+<img src="docs/icon.svg" alt="CraftApps icon" width="128">
+
 # CraftApps
 
 **Craft your own apps.**
