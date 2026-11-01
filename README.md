@@ -4,8 +4,6 @@
 
 CraftApps is a set of skills for your AI agent that helps anyone — developer or not — find, build, and share small apps they own.
 
-CraftApps is a fruit grown in the AI Garden. Check out more fruits at [aigarden.uk](https://aigarden.uk/).
-
 ## Table of Contents
 
 - [The goal](#the-goal)
@@ -105,6 +103,8 @@ All four skills are early. See [docs/ROADMAP.md](docs/ROADMAP.md) for what has b
 More in [docs/VISION.md](docs/VISION.md).
 
 ## Community
+
+CraftApps is a fruit grown by Igor Bidiniuc. Check out [his garden](https://aigarden.uk/) for more fruits.
 
 - **Issues:** bugs, ideas, and questions at https://github.com/RogyMD/craftapps/issues
 
